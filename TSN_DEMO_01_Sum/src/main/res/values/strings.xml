@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TSN_DEMO_01_Sum</string>
+    <string name="b">B=</string>
+    <string name="sum">y равно:</string>
+    <string name="button_name">Введите цифры и нажмите кнопку y равно:</string>
+    <string name="a">A=</string>
+    <string name="x">X=</string>
+    <string name="logo">logo</string>
+</resources>

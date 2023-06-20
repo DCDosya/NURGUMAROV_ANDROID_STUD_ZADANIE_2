@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/primer"
+        android:contentDescription="@string/logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/androidify"
+        android:contentDescription="@string/logo" />
+
+    <EditText
+        android:id="@+id/editText_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/a"
+        android:inputType="textPersonName"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/editText_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/b"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editText_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/x"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/buttonSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="onClick"
+        android:text="@string/sum" />
+
+    <TextView
+        android:id="@+id/textView_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name"
+        android:textColor="#25675A"
+        android:gravity="center" />
+
+</LinearLayout>
